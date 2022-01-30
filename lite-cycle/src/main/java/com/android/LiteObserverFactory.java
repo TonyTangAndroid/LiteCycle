@@ -1,6 +1,6 @@
 package com.android;
 
-import android.arch.lifecycle.LifecycleOwner;
+import androidx.lifecycle.LifecycleOwner;
 
 import java.util.concurrent.Callable;
 

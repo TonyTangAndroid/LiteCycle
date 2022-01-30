@@ -1,7 +1,7 @@
 package com.sample;
 
-import android.arch.lifecycle.LifecycleOwner;
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.LifecycleOwner;
+import androidx.lifecycle.ViewModel;
 
 import com.android.LiteCycle;
 

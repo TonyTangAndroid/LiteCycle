@@ -1,6 +1,6 @@
 package com.sample;
 
-import android.arch.lifecycle.LifecycleOwner;
+import androidx.lifecycle.LifecycleOwner;
 import android.location.Location;
 
 /**

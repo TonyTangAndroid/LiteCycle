@@ -1,8 +1,8 @@
 package com.android;
 
 import android.annotation.SuppressLint;
-import android.arch.lifecycle.LifecycleOwner;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.LifecycleOwner;
+import androidx.annotation.NonNull;
 
 import java.util.LinkedList;
 import java.util.List;
