@@ -3,11 +3,12 @@ apply plugin: 'maven'
 group = 'com.github.Ahmed-Adel-Ismail'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 28
+        //noinspection OldTargetApi
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
@@ -25,8 +26,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.github.Ahmed-Adel-Ismail:J-Chain:1.4.1'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    api 'com.github.TonyTangAndroid:J-Chain:2.1.0'
+    api 'com.github.TonyTangAndroid.J-Curry:currying:3.2.0'
     api 'io.reactivex.rxjava2:rxjava:2.2.21'
     testImplementation 'junit:junit:4.13.2'
 }
